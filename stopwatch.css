@@ -1,0 +1,45 @@
+body {
+  background: black;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  height: 100%;
+  color: azure;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 30px auto;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+  font: 10px, 25px, 35px;
+  text-transform: uppercase;
+}
+
+#seconds,
+#tens {
+  font-size: 2em;
+}
+
+button {
+  background: base-color;
+  color: black;
+  border: solid 1px white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+}
+button:hover {
+  background: cyan;
+  border: solid 1px white;
+  color: base-color;
+}
